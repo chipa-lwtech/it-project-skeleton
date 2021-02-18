@@ -6,6 +6,6 @@ Step Two: ???
 Step Three: Profit!  ;-)  
 
 ### "Elevator Pitch"
-_(Insert the 20 second description of what you project does here.)
+_(Insert the 20 second description of what you project does here.)_
 
 [Project Documentation Wiki](../../wiki)
