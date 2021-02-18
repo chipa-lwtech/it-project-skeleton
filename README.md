@@ -1,9 +1,11 @@
-# topten-lists
-The servlet that drives the TopTopTenLists.com website
+# skeleton
+A skeleton template for an MVC servlet
 
-_(Note: This is an example of an MVC-based website created using the Java Servlet API. It is part of the curriculum for CSD 297 at Lake Washington Institute of Technology.)_
+Step One: Find and change all instances of the work "skeleton" to the name of your project.  
+Step Two: ???  
+Step Three: Profit!  ;-)  
 
 ### "Elevator Pitch"
-TopTen-Lists.com is a website that allows Internet users to create and share interesting/funny "Top 10" lists with others. It will make money from advertising.
+_(Insert the 20 second description of what you project does here.)
 
-[Wiki](../../wiki)
+[Project Documentation Wiki](../../wiki)

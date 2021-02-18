@@ -1,4 +1,4 @@
-package edu.lwtech.csd297.topten.daos;
+package edu.lwtech.csd297.skeleton.daos;
 
 import java.util.*;
 

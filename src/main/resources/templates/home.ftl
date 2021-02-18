@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TopTen-Lists.com - Homepage</title>
+        <title>Home page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1>TopTen Lists</h1>
-        <h2>The Best TopTen Lists on the Internet!</h2>
-
-        <a href="?cmd=show">Show me the first list!</a><br />
-        <br />
+        <h1>Skeleton Servlet</h1>
 
         <table border="1">
             <tr>
-                <th>Likes</th><th>Description</th><th>Views</th>
+                <th>RecID</th><th>Name</th><th>Age</th>
             </tr>
-            <#list topTenLists as topTenList>
+            <#list skeletons as skeleton>
             <tr>
-                <td>${topTenList.numLikes}</td>
-                <td><a href="?cmd=show&index=${topTenList?index}">${topTenList.description}</a></td>
-                <td>${topTenList.numViews}</td>
+                <td>${skeleton.recID}</td>
+                <td>${skeleton.name}</a></td>
+                <td>${skeleton.age}</td>
             </tr>
             </#list>
         </table><br />
-        <br />
-
-        <#if loggedIn>
-            <a href="?cmd=add">Add a New List</a><br />
-            <a href="?cmd=logout">Log Out</a>
-        <#else>
-            <a href="?cmd=login">Log In</a><br />
-            <a href="?cmd=register">Register</a>
-        </#if>
     </body>
 </html>
