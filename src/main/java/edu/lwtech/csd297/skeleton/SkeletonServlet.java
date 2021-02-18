@@ -87,7 +87,7 @@ public class SkeletonServlet extends HttpServlet {
             switch (command) {
                 case "home":
                     List<Skeleton> skeletons = skeletonDAO.retrieveAll();
-                    templateDataMap.put("skeletonLists", skeletons);
+                    templateDataMap.put("skeletons", skeletons);
                     templateName = "home.ftl";
                     break;
 
